@@ -146,7 +146,7 @@ namespace WachtrijApp
             this.labelKar2.Text = $"Kar 2: {status2}";
 
             string node3 = doc.DocumentElement.SelectSingleNode("/Status/Kar03").InnerText;
-            string status3 = ConvertStatus(node2);
+            string status3 = ConvertStatus(node3);
             this.labelKar2.Text = $"Kar 3: {status3}";
         }
 
