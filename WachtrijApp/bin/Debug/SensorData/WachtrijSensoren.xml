@@ -11,5 +11,5 @@
   <Sensor09>False</Sensor09>
   <Sensor10>False</Sensor10>
   <Sensor11>False</Sensor11>
-  <Sensor12>False</Sensor12>
+  <Sensor12>True</Sensor12>
 </Sensoren>

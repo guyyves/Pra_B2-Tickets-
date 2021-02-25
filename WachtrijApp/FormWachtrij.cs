@@ -147,7 +147,7 @@ namespace WachtrijApp
 
             string node3 = doc.DocumentElement.SelectSingleNode("/Status/Kar03").InnerText;
             string status3 = ConvertStatus(node3);
-            this.labelKar2.Text = $"Kar 3: {status3}";
+            this.labelKar3.Text = $"Kar 3: {status3}";
         }
 
         //  Een methode welke een status-code omzet naar een status-beschrijving
@@ -171,6 +171,11 @@ namespace WachtrijApp
             if (StatusNr == "4")
             {
                 return "Komt binnen";
+            }
+
+            if (StatusNr == "5")
+            {
+                return "In Onderhoud";
             }
 
             return "";

@@ -35,6 +35,7 @@
             this.AttractieLogo = new System.Windows.Forms.PictureBox();
             this.labelKar2 = new System.Windows.Forms.Label();
             this.labelKar1 = new System.Windows.Forms.Label();
+            this.labelKar3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.AttractieLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -76,7 +77,7 @@
             this.AttractieLogo.ErrorImage = null;
             this.AttractieLogo.Image = ((System.Drawing.Image)(resources.GetObject("AttractieLogo.Image")));
             this.AttractieLogo.Location = new System.Drawing.Point(224, 107);
-            this.AttractieLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AttractieLogo.Margin = new System.Windows.Forms.Padding(4);
             this.AttractieLogo.Name = "AttractieLogo";
             this.AttractieLogo.Size = new System.Drawing.Size(147, 174);
             this.AttractieLogo.TabIndex = 6;
@@ -105,12 +106,24 @@
             this.labelKar1.TabIndex = 9;
             this.labelKar1.Text = "Kar 1: ...";
             // 
+            // labelKar3
+            // 
+            this.labelKar3.AutoSize = true;
+            this.labelKar3.Font = new System.Drawing.Font("Calibri", 11.25F);
+            this.labelKar3.Location = new System.Drawing.Point(39, 130);
+            this.labelKar3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelKar3.Name = "labelKar3";
+            this.labelKar3.Size = new System.Drawing.Size(74, 23);
+            this.labelKar3.TabIndex = 10;
+            this.labelKar3.Text = "Kar 3: ...";
+            // 
             // FormWachtrij
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Peru;
             this.ClientSize = new System.Drawing.Size(372, 279);
+            this.Controls.Add(this.labelKar3);
             this.Controls.Add(this.labelKar1);
             this.Controls.Add(this.labelKar2);
             this.Controls.Add(this.AttractieLogo);
@@ -118,7 +131,7 @@
             this.Controls.Add(this.labelWachttijd);
             this.Controls.Add(this.labelTitel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormWachtrij";
             this.Text = "Bugs of Horror";
             ((System.ComponentModel.ISupportInitialize)(this.AttractieLogo)).EndInit();
@@ -135,6 +148,7 @@
         private System.Windows.Forms.PictureBox AttractieLogo;
         private System.Windows.Forms.Label labelKar2;
         private System.Windows.Forms.Label labelKar1;
+        private System.Windows.Forms.Label labelKar3;
     }
 }
 
