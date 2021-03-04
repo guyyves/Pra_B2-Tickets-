@@ -123,7 +123,7 @@ namespace WachtrijApp
             {
                 return Wachttijd;
             }
-            Wachttijd += 4;
+            Wachttijd += 5;
 
             return Wachttijd;
         }
