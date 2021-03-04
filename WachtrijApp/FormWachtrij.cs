@@ -123,7 +123,7 @@ namespace WachtrijApp
             {
                 return Wachttijd;
             }
-            Wachttijd += 5;
+            Wachttijd += 4;
 
             return Wachttijd;
         }
@@ -182,6 +182,11 @@ namespace WachtrijApp
         }
 
         private void labelWachttijdMelding_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormWachtrij_Load(object sender, EventArgs e)
         {
 
         }

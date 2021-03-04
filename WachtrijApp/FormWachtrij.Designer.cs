@@ -75,6 +75,7 @@
             // 
             // AttractieLogo
             // 
+            this.AttractieLogo.BackColor = System.Drawing.Color.Turquoise;
             this.AttractieLogo.ErrorImage = null;
             this.AttractieLogo.Image = ((System.Drawing.Image)(resources.GetObject("AttractieLogo.Image")));
             this.AttractieLogo.Location = new System.Drawing.Point(227, 107);
@@ -122,8 +123,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Peru;
-            this.ClientSize = new System.Drawing.Size(372, 279);
+            this.BackColor = System.Drawing.Color.Turquoise;
+            this.ClientSize = new System.Drawing.Size(376, 286);
             this.Controls.Add(this.labelKar3);
             this.Controls.Add(this.labelKar1);
             this.Controls.Add(this.labelKar2);
@@ -135,6 +136,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormWachtrij";
             this.Text = "Bug Hero";
+            this.Load += new System.EventHandler(this.FormWachtrij_Load);
             ((System.ComponentModel.ISupportInitialize)(this.AttractieLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
