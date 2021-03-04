@@ -71,12 +71,13 @@
             this.labelWachttijdMelding.Size = new System.Drawing.Size(88, 23);
             this.labelWachttijdMelding.TabIndex = 5;
             this.labelWachttijdMelding.Text = "0 minuten";
+            this.labelWachttijdMelding.Click += new System.EventHandler(this.labelWachttijdMelding_Click);
             // 
             // AttractieLogo
             // 
             this.AttractieLogo.ErrorImage = null;
             this.AttractieLogo.Image = ((System.Drawing.Image)(resources.GetObject("AttractieLogo.Image")));
-            this.AttractieLogo.Location = new System.Drawing.Point(224, 107);
+            this.AttractieLogo.Location = new System.Drawing.Point(227, 107);
             this.AttractieLogo.Margin = new System.Windows.Forms.Padding(4);
             this.AttractieLogo.Name = "AttractieLogo";
             this.AttractieLogo.Size = new System.Drawing.Size(147, 174);
@@ -133,7 +134,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormWachtrij";
-            this.Text = "Bugs of Horror";
+            this.Text = "Bug Hero";
             ((System.ComponentModel.ISupportInitialize)(this.AttractieLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

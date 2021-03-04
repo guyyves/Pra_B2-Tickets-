@@ -180,5 +180,10 @@ namespace WachtrijApp
 
             return "";
         }
+
+        private void labelWachttijdMelding_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
